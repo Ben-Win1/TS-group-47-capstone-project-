@@ -1,0 +1,34 @@
+{
+  "name": "ts-group-47-capstone-project-",
+  "version": "1.0.0",
+  "description": "Group 47 capstone project focused on planning, designing, building, integrating, and testing a full-stack MVP with both frontend and backend.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "nodemon src/app.js",
+  "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ben-Win1/TS-group-47-capstone-project-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ben-Win1/TS-group-47-capstone-project-/issues"
+  },
+  "homepage": "https://github.com/Ben-Win1/TS-group-47-capstone-project-#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
