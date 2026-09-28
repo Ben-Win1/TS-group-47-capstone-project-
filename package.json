@@ -4,8 +4,8 @@
   "description": "Group 47 capstone project focused on planning, designing, building, integrating, and testing a full-stack MVP with both frontend and backend.",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon src/app.js",
-  "start": "node src/app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
