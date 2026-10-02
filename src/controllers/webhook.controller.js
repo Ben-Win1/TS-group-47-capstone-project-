@@ -7,7 +7,6 @@ const createWebhook = asyncHandler(async (req, res) => {
   const webhook = await webhookService.createWebhook(projectId, req.body);
   return response(res, 201, 'Webhook registered successfully', webhook);
 });
-
 const getWebhooks = asyncHandler(async (req, res) => {
   const projectId = req.project._id;
   const { page, limit } = req.query;
