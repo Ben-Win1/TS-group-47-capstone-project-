@@ -1,0 +1,10 @@
+{
+  "description": "Streamline backend management with a professional platform for developers to register, manage projects, databases, API keys, and monitor usage.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
